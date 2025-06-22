@@ -1,5 +1,5 @@
 let nomeDoHeroi = "Solaire of Astora"
-let xp = 10000
+let xp = 10001
 let nivel;
 
    switch (true) {
@@ -31,7 +31,7 @@ let nivel;
    nivel = "Imortal"
    break;
    
-   case xp > 10001:
+   case xp >= 10001:
    nivel = "Radiante"
    break;
 }
